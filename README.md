@@ -133,13 +133,13 @@ RAGBenchX
 
 ## Installation
 
-*Clone the repository*
+> Clone the repository
 
 git clone https://github.com/yourusername/RAGBenchX.git
 
 cd RAGBenchX
 
-*Create a virtual environment*
+> Create a virtual environment
 
 python -m venv venv
 
@@ -149,21 +149,21 @@ Windows
 
 venv\Scripts\activate
 
-*Install dependencies*
+> Install dependencies
 
 pip install -r requirements.txt
 
-*Running the Application*
+> Running the Application
 
 Start the Ollama server
 
 ollama serve
 
-*Install the Qwen model used in this project*
+> Install the Qwen model used in this project
 
 ollama pull qwen2:1.5b
 
-*Run the Streamlit dashboard*
+> Run the Streamlit dashboard
 
 streamlit run app.py
 
@@ -171,7 +171,7 @@ Open the dashboard in a browser
 
 Upload a document and start the benchmark.
 
-*Example Workflow*
+> Example Workflow 
 
 Upload a document
 
@@ -182,6 +182,20 @@ Both RAG pipelines answer each question
 Similarity and latency metrics are calculated
 
 Results are displayed in the dashboard
+
+## Screenshots
+## 📸 Screenshots
+
+<p align="center">
+  <img src="<img width="1285" height="421" alt="1" src="https://github.com/user-attachments/assets/402acf8e-8096-4f9f-b0c1-2d1addd80b7c" />
+    <img width="1272" height="438" alt="2" src="https://github.com/user-attachments/assets/c2679224-fc3d-48fe-b584-049e7fe05a09" />
+    <img width="1278" height="548" alt="3" src="https://github.com/user-attachments/assets/88551309-e7d0-4339-8194-9e1b6539456b" />
+    <img width="1298" height="381" alt="4" src="https://github.com/user-attachments/assets/93721992-3ebf-43b1-9107-d1ad62cf5d48" />
+
+
+</p>
+
+> PS: Current results use small models, which leads to lower scores and higher latency. Using larger models would likely improve performance. 
 
 ## Future Improvements
 
