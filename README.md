@@ -12,6 +12,14 @@ This project implements two RAG pipelines with different chunking strategies and
 
 Pipeline A uses smaller document chunks of 512 tokens while Pipeline B uses larger chunks of 1024 tokens. This difference allows the system to study how context granularity impacts retrieval accuracy and answer generation.
 
+## Technology Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
+![Sentence Transformers](https://img.shields.io/badge/SentenceTransformers-FF6F00?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 *How the System Works*
 
 The benchmarking workflow follows these steps.
