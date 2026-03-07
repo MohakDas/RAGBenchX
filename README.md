@@ -187,7 +187,7 @@ Results are displayed in the dashboard
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="<img width="1285" height="421" alt="1" src="https://github.com/user-attachments/assets/402acf8e-8096-4f9f-b0c1-2d1addd80b7c" />
+    <img width="1285" height="421" alt="1" src="https://github.com/user-attachments/assets/998719b2-c68f-4121-9179-75e8b95cf2d9" />
     <img width="1272" height="438" alt="2" src="https://github.com/user-attachments/assets/c2679224-fc3d-48fe-b584-049e7fe05a09" />
     <img width="1278" height="548" alt="3" src="https://github.com/user-attachments/assets/88551309-e7d0-4339-8194-9e1b6539456b" />
     <img width="1298" height="381" alt="4" src="https://github.com/user-attachments/assets/93721992-3ebf-43b1-9107-d1ad62cf5d48" />
