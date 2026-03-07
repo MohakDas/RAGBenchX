@@ -195,7 +195,7 @@ Results are displayed in the dashboard
 
 </p>
 
-> PS: Current results use small models, which leads to lower scores and higher latency. Using larger models would likely improve performance. 
+> PS: Results were obtained locally using smaller models. Larger models and stronger hardware would likely improve both scores and latency.
 
 ## Future Improvements
 
