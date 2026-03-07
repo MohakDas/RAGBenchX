@@ -194,6 +194,6 @@ Support for additional embedding models
 Integration with evaluation frameworks such as RAGAS
 Multi document benchmarking
 
-License
-
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 MIT License
