@@ -24,7 +24,7 @@ Each document chunk is converted into a dense vector embedding using sentence tr
 
 The embeddings are stored in a FAISS vector index to enable fast similarity search.
 
-The system automatically generates evaluation questions and reference answers from the document using a local language model served through Ollama. In our implementation we used the Qwen model qwen2:1.5b.
+The system automatically generates evaluation questions and reference answers from the document using a local language model served through Ollama. In our implementation we used the Qwen model qwen1.5:2b.
 
 Each question is processed by both RAG pipelines.
 
