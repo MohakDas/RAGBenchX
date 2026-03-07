@@ -72,11 +72,11 @@ The time required for each pipeline to generate an answer is measured. This help
 
 The Streamlit interface displays benchmark results through several visual components.
 
--Benchmark summary metrics
--Pipeline comparison charts
--Similarity scores for both pipelines
--Latency measurements
--Pipeline configuration details
+- Benchmark summary metrics
+- Pipeline comparison charts
+- Similarity scores for both pipelines
+- Latency measurements
+- Pipeline configuration details
 
 These visualizations make it easier to compare different RAG setups and understand the impact of different retrieval configurations.
 
@@ -91,12 +91,12 @@ The system is built using the following tools and libraries.
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
--Streamlit for the interactive dashboard
--FAISS for vector similarity search
--Sentence Transformers for embedding generation
--Ollama for running local language models
--Plotly for performance visualization
--Python for the core implementation
+- Streamlit for the interactive dashboard
+- FAISS for vector similarity search
+- Sentence Transformers for embedding generation
+- Ollama for running local language models
+- Plotly for performance visualization
+- Python for the core implementation
 
 The local language model used in this implementation is Qwen running through Ollama.
 
