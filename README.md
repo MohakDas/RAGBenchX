@@ -135,7 +135,7 @@ RAGBenchX
 
 > Clone the repository
 
-git clone https://github.com/yourusername/RAGBenchX.git
+git clone https://github.com/MohakDas/RAGBenchX.git
 
 cd RAGBenchX
 
