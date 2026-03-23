@@ -119,56 +119,31 @@ RAGBenchX/
 
 ## Installation
 
-> Clone the repository
-
+```bash
 git clone https://github.com/MohakDas/RAGBenchX.git
-
 cd RAGBenchX
-
-> Create a virtual environment
-
 python -m venv venv
-
-Activate the environment
-
-Windows
-
 venv\Scripts\activate
-
-> Install dependencies
-
 pip install -r requirements.txt
+```
 
-> Running the Application
+## Running the Application
 
-Start the Ollama server
-
+```bash
 ollama serve
-
-> Install the Qwen model used in this project
-
 ollama pull qwen2:1.5b
-
-> Run the Streamlit dashboard
-
 streamlit run app.py
+```
 
-Open the dashboard in a browser
+Open the dashboard in your browser, upload a document, and start the benchmark.
 
-Upload a document and start the benchmark.
+## Example Workflow
 
-> Example Workflow 
-
-Upload a document
-
-The system generates evaluation questions
-
-Both RAG pipelines answer each question
-
-Similarity and latency metrics are calculated
-
-Results are displayed in the dashboard
-
+- Upload a document
+- Generate evaluation questions
+- Run both RAG pipelines
+- Compute similarity and latency metrics
+- Display results in the dashboard
 ## Screenshots
 
 <p align="center">
