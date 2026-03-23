@@ -102,34 +102,20 @@ The local language model used in this implementation is Qwen running through Oll
 
 ## Project Structure
 
-RAGBenchX
-│
-├── app.py
-│   Streamlit dashboard
-│
-├── benchmark.py
-│   Benchmark execution logic
-│
-├── synthetic_eval.py
-│   Synthetic question generation
-│
-├── pipelineA_wrapper.py
-├── pipelineB_wrapper.py
-│   RAG pipeline implementations
-│
-├── pipelineA.py
-│   Pipeline utilities
-│
-├── evalA.py
-├── evalB.py
-├── evalA_data.py
-│   Evaluation helpers
-│
-├── requirements.txt
-│   Project dependencies
-│
-└── README.md
-    Project documentation
+```text
+RAGBenchX/
+├── app.py                  # Streamlit dashboard
+├── benchmark.py            # Benchmark execution logic
+├── synthetic_eval.py       # Synthetic question generation
+├── pipelineA_wrapper.py    # RAG pipeline implementation A
+├── pipelineB_wrapper.py    # RAG pipeline implementation B
+├── pipelineA.py            # Pipeline utilities
+├── evalA.py                # Evaluation helper
+├── evalB.py                # Evaluation helper
+├── evalA_data.py           # Evaluation data/helper
+├── requirements.txt        # Project dependencies
+└── README.md               # Project documentation
+```
 
 ## Installation
 
