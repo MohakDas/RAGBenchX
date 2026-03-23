@@ -170,7 +170,6 @@ Similarity and latency metrics are calculated
 Results are displayed in the dashboard
 
 ## Screenshots
-## 📸 Screenshots
 
 <p align="center">
     <img width="1285" height="421" alt="1" src="https://github.com/user-attachments/assets/998719b2-c68f-4121-9179-75e8b95cf2d9" />
